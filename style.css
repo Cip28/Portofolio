@@ -1,0 +1,58 @@
+body{
+  background-color: #E9ECEF;
+  padding:10px;
+
+}
+
+.titlu{
+font-family:Helvetica;
+}
+
+.despre{
+  margin:20px;
+  display: flex;
+  justify-content:space-around;
+  line-height: 33px;
+}
+
+.despre-st {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.despre-text-st, .continut-studii-st,.abilitati-st, .tip-job-st{
+margin-right: 40px;
+}
+
+.despre-text-dr {
+  margin-left:40px;
+}
+
+.titlu-studii, .titlu-abilitati, .titlu-job{
+
+  text-transform: uppercase;
+  margin:20px;
+  display:flex;
+  justify-content: center;
+}
+
+.continut-studii, .abilitati, .tip-job{
+  border: 1px solid #f1f1f1;
+  display:flex;
+  justify-content: space-around;
+  line-height: 28px;
+}
+
+.abilitati-dr{
+  margin-top:21px;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
